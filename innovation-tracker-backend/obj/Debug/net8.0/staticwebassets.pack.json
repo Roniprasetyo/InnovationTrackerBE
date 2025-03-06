@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
+      "PackagePath": "staticwebassets\\Uploads\\Template_List_Proses_Base.xlsx"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.sistem-informasi-produksi-backend.props",
+      "PackagePath": "build\\sistem-informasi-produksi-backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.sistem-informasi-produksi-backend.props",
+      "PackagePath": "buildMultiTargeting\\sistem-informasi-produksi-backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.sistem-informasi-produksi-backend.props",
+      "PackagePath": "buildTransitive\\sistem-informasi-produksi-backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.sistem-informasi-produksi-backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.sistem-informasi-produksi-backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

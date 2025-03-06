@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\utilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\utilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\helper\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:helper\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\masterprosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\masterprosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\helper\\ldapauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:helper\\ldapauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\suratperintahkerjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\suratperintahkerjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\suratpenawarancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\suratpenawarancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\rencanaanggarankegiatancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\rencanaanggarankegiatancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\permintaanpelanggancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\permintaanpelanggancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\masterkursprosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\masterkursprosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\masteralatmesincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\masteralatmesincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\masteroperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\masteroperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\masterpelanggancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\masterpelanggancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|d:\\projek upt\\innovationtrackerbe\\innovation-tracker-backend\\controllers\\masterprodukcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|sistem-informasi-produksi-backend.csproj|solutionrelative:controllers\\masterprodukcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T04:36:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JWTToken.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Helper\\JWTToken.cs",
+              "RelativeDocumentMoniker": "Helper\\JWTToken.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Helper\\JWTToken.cs",
+              "RelativeToolTip": "Helper\\JWTToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:38:31.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterProsesController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterProsesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterProsesController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterProsesController.cs",
+              "RelativeToolTip": "Controllers\\MasterProsesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:34:41.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T03:33:39.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LDAPAuthentication.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Helper\\LDAPAuthentication.cs",
+              "RelativeDocumentMoniker": "Helper\\LDAPAuthentication.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Helper\\LDAPAuthentication.cs",
+              "RelativeToolTip": "Helper\\LDAPAuthentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:33:27.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UtilitiesController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\UtilitiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UtilitiesController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\UtilitiesController.cs",
+              "RelativeToolTip": "Controllers\\UtilitiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:33:08.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Controllers\\UploadController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:33:06.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SuratPerintahKerjaController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\SuratPerintahKerjaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SuratPerintahKerjaController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\SuratPerintahKerjaController.cs",
+              "RelativeToolTip": "Controllers\\SuratPerintahKerjaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:33:00.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SuratPenawaranController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\SuratPenawaranController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SuratPenawaranController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\SuratPenawaranController.cs",
+              "RelativeToolTip": "Controllers\\SuratPenawaranController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:54.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RencanaAnggaranKegiatanController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\RencanaAnggaranKegiatanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RencanaAnggaranKegiatanController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\RencanaAnggaranKegiatanController.cs",
+              "RelativeToolTip": "Controllers\\RencanaAnggaranKegiatanController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:45.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PermintaanPelangganController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\PermintaanPelangganController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PermintaanPelangganController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\PermintaanPelangganController.cs",
+              "RelativeToolTip": "Controllers\\PermintaanPelangganController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:37.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MasterAlatMesinController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterAlatMesinController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterAlatMesinController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterAlatMesinController.cs",
+              "RelativeToolTip": "Controllers\\MasterAlatMesinController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:30.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MasterKursProsesController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterKursProsesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterKursProsesController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterKursProsesController.cs",
+              "RelativeToolTip": "Controllers\\MasterKursProsesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:23.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MasterOperatorController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterOperatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterOperatorController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterOperatorController.cs",
+              "RelativeToolTip": "Controllers\\MasterOperatorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:14.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MasterPelangganController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterPelangganController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterPelangganController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterPelangganController.cs",
+              "RelativeToolTip": "Controllers\\MasterPelangganController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:32:06.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MasterProdukController.cs",
+              "DocumentMoniker": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterProdukController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterProdukController.cs",
+              "ToolTip": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MasterProdukController.cs",
+              "RelativeToolTip": "Controllers\\MasterProdukController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:31:28.793Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

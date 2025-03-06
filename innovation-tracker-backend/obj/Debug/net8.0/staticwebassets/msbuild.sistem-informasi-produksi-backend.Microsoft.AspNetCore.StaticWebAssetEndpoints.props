@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/sistem-informasi-produksi-backend/Uploads/Template_List_Proses_Base.o6x8ip2cm1.xlsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Template_List_Proses_Base.xlsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o6x8ip2cm1"},{"Name":"integrity","Value":"sha256-ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg="},{"Name":"label","Value":"_content/sistem-informasi-produksi-backend/Uploads/Template_List_Proses_Base.xlsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11025"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 03:46:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistem-informasi-produksi-backend/Uploads/Template_List_Proses_Base.xlsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Template_List_Proses_Base.xlsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11025"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 03:46:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

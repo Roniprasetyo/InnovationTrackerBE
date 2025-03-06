@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "WSE3W3uWCiB9g0e1VJKYahmIxTOCHZKiZ35M8KBl2xs=",
+  "Source": "sistem-informasi-produksi-backend",
+  "BasePath": "_content/sistem-informasi-produksi-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "sistem-informasi-produksi-backend\\wwwroot",
+      "Source": "sistem-informasi-produksi-backend",
+      "ContentRoot": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/sistem-informasi-produksi-backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
+      "SourceId": "sistem-informasi-produksi-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/sistem-informasi-produksi-backend",
+      "RelativePath": "Uploads/Template_List_Proses_Base#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6x8ip2cm1",
+      "Integrity": "ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Template_List_Proses_Base.xlsx"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Uploads/Template_List_Proses_Base.o6x8ip2cm1.xlsx",
+      "AssetFile": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:46:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6x8ip2cm1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Template_List_Proses_Base.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Template_List_Proses_Base.xlsx",
+      "AssetFile": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:46:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg="
+        }
+      ]
+    }
+  ]
+}
