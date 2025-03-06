@@ -3,7 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace sistem_informasi_produksi_backend.Helper
+namespace innovation_tracker_backend.Helper
 {
     public class JWTToken
     {

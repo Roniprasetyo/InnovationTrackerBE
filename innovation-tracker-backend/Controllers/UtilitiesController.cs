@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using sistem_informasi_produksi_backend.Helper;
+using innovation_tracker_backend.Helper;
 using System.Data;
 using System.Runtime.Versioning;
 
-namespace sistem_informasi_produksi_backend.Controllers
+namespace innovation_tracker_backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

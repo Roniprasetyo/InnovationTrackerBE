@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace sistem_informasi_produksi_backend
+namespace innovation_tracker_backend
 {
     public class Program
     {

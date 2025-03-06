@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>sistem_informasi_produksi_backend</RootNamespace>
+    <RootNamespace>innovation_tracker_backend</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistem-informasi-produksi-backend", "sistem-informasi-produksi-backend.csproj", "{E9734A1A-9335-43C0-981B-9A4B4F626946}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "innovation-tracker-backend", "innovation-tracker-backend.csproj", "{E9734A1A-9335-43C0-981B-9A4B4F626946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

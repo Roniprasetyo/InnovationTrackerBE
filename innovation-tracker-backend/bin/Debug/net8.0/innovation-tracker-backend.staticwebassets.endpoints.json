@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Uploads/Template_List_Proses_Base.o6x8ip2cm1.xlsx",
+      "AssetFile": "Uploads/Template_List_Proses_Base.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6x8ip2cm1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg="
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Template_List_Proses_Base.xlsx"
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Template_List_Proses_Base.xlsx",
+      "AssetFile": "Uploads/Template_List_Proses_Base.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ADAfbNLnb/v3lc5EGE706xSFjDgto9qq00I7HsTSrHg="
+        }
+      ]
+    }
+  ]
+}

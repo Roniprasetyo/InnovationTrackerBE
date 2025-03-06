@@ -2399,9 +2399,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\sistem-informasi-produksi-backend.csproj",
-      "projectName": "sistem-informasi-produksi-backend",
-      "projectPath": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\sistem-informasi-produksi-backend.csproj",
+      "projectUniqueName": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
+      "projectName": "innovation-tracker-backend",
+      "projectPath": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
       "packagesPath": "C:\\Users\\lab_mi2\\.nuget\\packages\\",
       "outputPath": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\obj\\",
       "projectStyle": "PackageReference",

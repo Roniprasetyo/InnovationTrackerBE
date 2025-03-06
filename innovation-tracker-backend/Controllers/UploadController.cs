@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace sistem_informasi_produksi_backend.Controllers
+namespace innovation_tracker_backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

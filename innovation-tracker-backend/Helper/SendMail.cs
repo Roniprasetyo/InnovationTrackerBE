@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Mail;
 
-namespace sistem_informasi_produksi_backend.Helper
+namespace innovation_tracker_backend.Helper
 {
     public class SendMail(IConfiguration configuration, IWebHostEnvironment hostingEnvironment)
     {
