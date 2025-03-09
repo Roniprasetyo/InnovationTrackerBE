@@ -27,7 +27,7 @@ namespace innovation_tracker_backend.Controllers
                 //bool isAuthenticated = adAuth.IsAuthenticated(EncodeData.HtmlEncodeObject(value)[0], EncodeData.HtmlEncodeObject(value)[1]);
                 //if (isAuthenticated)
                 //{
-                    dt = lib.CallProcedure("sso_getAuthenticationProduksi", EncodeData.HtmlEncodeObject(value));
+                    dt = lib.CallProcedure("sso_getAuthenticationInnoTrack", EncodeData.HtmlEncodeObject(value));
                     if (dt.Rows.Count == 0) return Ok(JsonConvert.SerializeObject(new { Status = "LOGIN FAILED" }));
                     return Ok(JsonConvert.SerializeObject(dt));
                 //}
@@ -122,14 +122,16 @@ namespace innovation_tracker_backend.Controllers
             catch { return BadRequest(); }
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult GetListMenu([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("all_getListMenu", EncodeData.HtmlEncodeObject(value));
+                
+                dt = lib.CallProcedure("ino_getMenuByRole", EncodeData.HtmlEncodeObject(value));
+                Console.WriteLine(dt);
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }

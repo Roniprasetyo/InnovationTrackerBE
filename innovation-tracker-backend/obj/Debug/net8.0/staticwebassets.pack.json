@@ -1,7 +1,7 @@
 {
   "Files": [
     {
-      "Id": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
       "PackagePath": "staticwebassets\\Uploads\\Template_List_Proses_Base.xlsx"
     },
     {
@@ -15,10 +15,6 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.innovation-tracker-backend.props",
       "PackagePath": "buildTransitive\\innovation-tracker-backend.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.innovation-tracker-backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.innovation-tracker-backend.Microsoft.AspNetCore.StaticWebAssets.props",
