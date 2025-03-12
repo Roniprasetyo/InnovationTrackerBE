@@ -27,13 +27,16 @@ namespace innovation_tracker_backend.Controllers
                 //bool isAuthenticated = adAuth.IsAuthenticated(EncodeData.HtmlEncodeObject(value)[0], EncodeData.HtmlEncodeObject(value)[1]);
                 //if (isAuthenticated)
                 //{
+                Console.WriteLine(value.ToString());
                     dt = lib.CallProcedure("sso_getAuthenticationInnoTrack", EncodeData.HtmlEncodeObject(value));
                     if (dt.Rows.Count == 0) return Ok(JsonConvert.SerializeObject(new { Status = "LOGIN FAILED" }));
                     return Ok(JsonConvert.SerializeObject(dt));
                 //}
                 //return Ok(JsonConvert.SerializeObject(new { Status = "LOGIN FAILED" }));
             }
-            catch { return BadRequest(); }
+            catch(Exception ex) { 
+                Console.WriteLine(ex.ToString());
+                return BadRequest(); }
         }
 
         [HttpPost]

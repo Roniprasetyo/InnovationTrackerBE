@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\innovation-tracker-backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:innovation-tracker-backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 287,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,14 +77,6 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "launchSettings.json",
@@ -103,17 +91,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "innovation-tracker-backend",
-              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
-              "RelativeDocumentMoniker": "innovation-tracker-backend.csproj",
-              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
-              "RelativeToolTip": "innovation-tracker-backend.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-06T15:09:25.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -131,7 +108,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-06T14:20:31.327Z"
             },
@@ -143,10 +120,14 @@
               "RelativeDocumentMoniker": "Controllers\\UtilitiesController.cs",
               "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\UtilitiesController.cs",
               "RelativeToolTip": "Controllers\\UtilitiesController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowB8AAAA/AAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowEYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T14:20:24.004Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
