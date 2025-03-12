@@ -1,5 +1,101 @@
 [
   {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterSettingController",
+    "Method": "CreateSetting",
+    "RelativePath": "api/MasterSetting/CreateSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterSettingController",
+    "Method": "GetListSetting",
+    "RelativePath": "api/MasterSetting/GetListSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterSettingController",
+    "Method": "GetSetting",
+    "RelativePath": "api/MasterSetting/GetSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterSettingController",
+    "Method": "GetSettingById",
+    "RelativePath": "api/MasterSetting/GetSettingById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterSettingController",
+    "Method": "setStatusSetting",
+    "RelativePath": "api/MasterSetting/setStatusSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterSettingController",
+    "Method": "UpdateSetting",
+    "RelativePath": "api/MasterSetting/UpdateSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "innovation_tracker_backend.Controllers.UploadController",
     "Method": "UploadFile",
     "RelativePath": "api/Upload/UploadFile",

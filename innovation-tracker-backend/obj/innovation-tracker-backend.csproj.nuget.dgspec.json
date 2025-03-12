@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\InnovationTrackerBE\\innovation-tracker-backend\\innovation-tracker-backend.csproj": {}
+    "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj": {}
   },
   "projects": {
-    "C:\\InnovationTrackerBE\\innovation-tracker-backend\\innovation-tracker-backend.csproj": {
+    "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\InnovationTrackerBE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
+        "projectUniqueName": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
         "projectName": "innovation-tracker-backend",
-        "projectPath": "C:\\InnovationTrackerBE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\InnovationTrackerBE\\innovation-tracker-backend\\obj\\",
+        "projectPath": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
+        "packagesPath": "C:\\Users\\Asus VivobooK\\.nuget\\packages\\",
+        "outputPath": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus VivobooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,7 +51,7 @@
           "dependencies": {
             "EPPlus": {
               "target": "Package",
-              "version": "[7.6.1, )"
+              "version": "[7.2.2, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -89,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
