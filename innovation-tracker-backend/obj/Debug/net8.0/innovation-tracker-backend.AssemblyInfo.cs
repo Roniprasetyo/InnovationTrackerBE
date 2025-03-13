@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("innovation-tracker-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b2cce3eca14e176e3e177415cf8a0fee5d6cd1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d0e9eeb7c966a25930777ea5fceb05d18e175ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("innovation-tracker-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("innovation-tracker-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
