@@ -134,7 +134,6 @@ namespace innovation_tracker_backend.Controllers
                 JObject value = JObject.Parse(data.ToString());
                 
                 dt = lib.CallProcedure("ino_getMenuByRole", EncodeData.HtmlEncodeObject(value));
-                Console.WriteLine(dt);
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }

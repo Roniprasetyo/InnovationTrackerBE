@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "McW0f6cPr3DDsQTgQ0+qJEJQZiciESIE7TxVRWizPkE=",
+  "Hash": "9o5f7RCBxzOSNW8TGgSNXBoqoQETI2d5yZPLqtl3g4M=",
   "Source": "innovation-tracker-backend",
   "BasePath": "_content/innovation-tracker-backend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "innovation-tracker-backend\\wwwroot",
       "Source": "innovation-tracker-backend",
-      "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
+      "ContentRoot": "C:\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
       "BasePath": "_content/innovation-tracker-backend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
+      "Identity": "C:\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\Template_List_Proses_Base.xlsx",
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
+      "ContentRoot": "C:\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
       "BasePath": "_content/innovation-tracker-backend",
       "RelativePath": "Uploads/Template_List_Proses_Base.xlsx",
       "AssetKind": "All",
