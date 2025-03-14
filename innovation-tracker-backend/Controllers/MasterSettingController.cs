@@ -4,7 +4,6 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using innovation_tracker_backend.Helper;
 using System.Data;
-using System.Runtime.Versioning;
 
 namespace innovation_tracker_backend.Controllers
 {
