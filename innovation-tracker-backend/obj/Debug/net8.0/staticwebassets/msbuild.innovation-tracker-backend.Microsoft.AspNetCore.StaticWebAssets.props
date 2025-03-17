@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_0d842d7e-2dec-47db-9628-a2c66de16094_2025316123848.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>innovation-tracker-backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/innovation-tracker-backend</BasePath>
+      <RelativePath>Uploads/FILE_0d842d7e-2dec-47db-9628-a2c66de16094_2025316123848.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_0d842d7e-2dec-47db-9628-a2c66de16094_2025316123848.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_1f8de6d7-00f9-4ccd-8f94-1d5f2c49b34a_20253141198.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>innovation-tracker-backend</SourceId>
@@ -32,6 +48,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_89258e78-18f3-4383-92d9-cde6006004d2_20253141137.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_8dee4cd8-faa5-4b7f-8ade-6d64a3614515_2025316123848.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>innovation-tracker-backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/innovation-tracker-backend</BasePath>
+      <RelativePath>Uploads/FILE_8dee4cd8-faa5-4b7f-8ade-6d64a3614515_2025316123848.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_8dee4cd8-faa5-4b7f-8ade-6d64a3614515_2025316123848.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_c571179e-b6a7-484a-947d-bb8b0b694afc_20253141137.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>innovation-tracker-backend</SourceId>
@@ -47,6 +79,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_c571179e-b6a7-484a-947d-bb8b0b694afc_20253141137.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_cb84565f-c326-4d0a-8ba7-e72a097c66ad_2025316123848.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>innovation-tracker-backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/innovation-tracker-backend</BasePath>
+      <RelativePath>Uploads/FILE_cb84565f-c326-4d0a-8ba7-e72a097c66ad_2025316123848.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_cb84565f-c326-4d0a-8ba7-e72a097c66ad_2025316123848.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_da1722bd-0f6f-418b-b3b8-5a332bed9cc8_20253141198.pdf))">
       <SourceType>Package</SourceType>
