@@ -10,7 +10,7 @@ namespace innovation_tracker_backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
-    public class MasterPeriodController(IConfiguration configuration) : Controller
+    public class MasterUserController(IConfiguration configuration) : Controller
     {
         readonly PolmanAstraLibrary.PolmanAstraLibrary lib = new(configuration.GetConnectionString("DefaultConnection"));
         readonly LDAPAuthentication adAuth = new(configuration);
@@ -18,12 +18,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult CreatePeriod([FromBody] dynamic data)
+        public IActionResult CreateUser([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_createPeriod", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_createUser", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -31,12 +31,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetPeriod([FromBody] dynamic data)
+        public IActionResult GetUser([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getPeriod", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_getUser", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -44,12 +44,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetPeriodById([FromBody] dynamic data)
+        public IActionResult GetUserDeptByUsername([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getPeriodById", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_getUser", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -57,12 +57,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetCurrentPeriod([FromBody] dynamic data)
+        public IActionResult GetUserById([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getCurrentPeriod", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_getUserById", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -70,12 +70,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetListPeriod([FromBody] dynamic data)
+        public IActionResult GetListRole([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getListPeriod", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_getListRole", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -83,12 +83,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult UpdatePeriod([FromBody] dynamic data)
+        public IActionResult UpdateUser([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_updatePeriod", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_updateUser", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -96,12 +96,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult setStatusPeriod([FromBody] dynamic data)
+        public IActionResult deleteUser([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_setStatusPeriod", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("sso_deleteUser", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }

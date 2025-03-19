@@ -113,6 +113,22 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.MasterPeriodController",
+    "Method": "GetCurrentPeriod",
+    "RelativePath": "api/MasterPeriod/GetCurrentPeriod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterPeriodController",
     "Method": "GetListPeriod",
     "RelativePath": "api/MasterPeriod/GetListPeriod",
     "HttpMethod": "POST",
@@ -288,6 +304,118 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/MasterUser/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "deleteUser",
+    "RelativePath": "api/MasterUser/deleteUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "GetListRole",
+    "RelativePath": "api/MasterUser/GetListRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "GetUser",
+    "RelativePath": "api/MasterUser/GetUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/MasterUser/GetUserById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "GetUserDeptByUsername",
+    "RelativePath": "api/MasterUser/GetUserDeptByUsername",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/MasterUser/UpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaCircleController",
     "Method": "CreateRencanaQCP",
     "RelativePath": "api/RencanaCircle/CreateRencanaQCP",
@@ -307,6 +435,22 @@
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaCircleController",
     "Method": "GetListKaryawan",
     "RelativePath": "api/RencanaCircle/GetListKaryawan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaCircleController",
+    "Method": "GetListKaryawanUsername",
+    "RelativePath": "api/RencanaCircle/GetListKaryawanUsername",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

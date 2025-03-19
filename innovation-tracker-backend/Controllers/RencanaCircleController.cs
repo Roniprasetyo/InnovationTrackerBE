@@ -123,13 +123,6 @@ namespace innovation_tracker_backend.Controllers
                     }
                    
                 }
-
-                
-
-
-
-                
-                //Console.WriteLine(JsonConvert.SerializeObject(res));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch (Exception ex) {
@@ -205,12 +198,38 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
+        public IActionResult GetListKaryawanUsername([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getListKaryawanUsername", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
         public IActionResult SentRencanaCircle([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
                 dt = lib.CallProcedure("ino_sentRencanaCircle", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult SetApproveRencanaCircle([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_setApproveRencanaCircle", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
