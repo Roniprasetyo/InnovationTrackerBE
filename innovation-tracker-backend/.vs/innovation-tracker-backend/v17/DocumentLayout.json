@@ -1,19 +1,271 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projek UPT\\InnovationTrackerBE\\innovation-tracker-backend\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\utilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\utilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\rencanasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\rencanasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\rencanacirclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\rencanacirclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\masterusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\masterusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\mastersettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\mastersettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\masterperusahaancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\masterperusahaancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\masterperiodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\masterperiodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\controllers\\masterfacilitatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:controllers\\masterfacilitatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\innovation-tracker-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:innovation-tracker-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|d:\\college\\semester 4\\project\\innovation tracker\\code-be\\innovation-tracker-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9734A1A-9335-43C0-981B-9A4B4F626946}|innovation-tracker-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 287,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:773994213:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MasterPerusahaanController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterPerusahaanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterPerusahaanController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterPerusahaanController.cs",
+              "RelativeToolTip": "Controllers\\MasterPerusahaanController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T00:49:03.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterSettingController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterSettingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterSettingController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterSettingController.cs",
+              "RelativeToolTip": "Controllers\\MasterSettingController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwBwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:47:58.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RencanaSSController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\RencanaSSController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RencanaSSController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\RencanaSSController.cs",
+              "RelativeToolTip": "Controllers\\RencanaSSController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:30:13.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RencanaCircleController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\RencanaCircleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RencanaCircleController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\RencanaCircleController.cs",
+              "RelativeToolTip": "Controllers\\RencanaCircleController.cs",
+              "ViewState": "AQIAALABAAAAAAAAAAAiwLsBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T06:09:11.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MasterFacilitatorController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterFacilitatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterFacilitatorController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterFacilitatorController.cs",
+              "RelativeToolTip": "Controllers\\MasterFacilitatorController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T02:08:20.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MasterPeriodController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterPeriodController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterPeriodController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterPeriodController.cs",
+              "RelativeToolTip": "Controllers\\MasterPeriodController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:54:17.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MasterUserController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MasterUserController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\MasterUserController.cs",
+              "RelativeToolTip": "Controllers\\MasterUserController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwCAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T01:26:18.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UtilitiesController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\UtilitiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UtilitiesController.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Controllers\\UtilitiesController.cs",
+              "RelativeToolTip": "Controllers\\UtilitiesController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:20:24.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T15:09:30.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "innovation-tracker-backend.csproj",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
+              "RelativeDocumentMoniker": "innovation-tracker-backend.csproj",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\innovation-tracker-backend.csproj",
+              "RelativeToolTip": "innovation-tracker-backend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T09:55:58.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:08:55.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T14:20:31.327Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1583,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
