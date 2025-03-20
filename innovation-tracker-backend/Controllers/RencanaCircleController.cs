@@ -37,7 +37,8 @@ namespace innovation_tracker_backend.Controllers
 
                 return Ok(JsonConvert.SerializeObject(dt));
             }
-            catch { return BadRequest(); }
+            catch {
+                return BadRequest(); }
         }
 
         [Authorize]
@@ -73,7 +74,6 @@ namespace innovation_tracker_backend.Controllers
 
                         if (matchingMember != null)
                         {
-                            Console.WriteLine($"Index {i}: update");
                             lib.CallProcedure("ino_updateMemberDetail", EncodeData.HtmlEncodeObject(new JObject
                             {
                                 { "rciId", rciId },
@@ -83,7 +83,6 @@ namespace innovation_tracker_backend.Controllers
                         }
                         else
                         {
-                            Console.WriteLine($"Index {i}: delete");
                             DataTable del = lib.CallProcedure("ino_deleteMemberDetail", EncodeData.HtmlEncodeObject(new JObject
                             {
                                 { "rciId", rciId },
@@ -102,7 +101,6 @@ namespace innovation_tracker_backend.Controllers
 
                         if (matchingMember != null)
                         {
-                            Console.WriteLine($"Index {i}: update");
                             lib.CallProcedure("ino_updateMemberDetail", EncodeData.HtmlEncodeObject(new JObject
                             {
                                 { "rciId", rciId },
@@ -112,7 +110,6 @@ namespace innovation_tracker_backend.Controllers
                         }
                         else
                         {
-                            Console.WriteLine($"Index {i}: add");
                             lib.CallProcedure("ino_createMemberDetail", EncodeData.HtmlEncodeObject(new JObject
                             {
                                 { "rciId", rciId },
@@ -125,8 +122,7 @@ namespace innovation_tracker_backend.Controllers
                 }
                 return Ok(JsonConvert.SerializeObject(dt));
             }
-            catch (Exception ex) {
-                Console.WriteLine(ex.Message);
+            catch {
                 return BadRequest(); }
         }
 
@@ -233,6 +229,229 @@ namespace innovation_tracker_backend.Controllers
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetListPerusahaan([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getListPerusahaan", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult CreateRencanaVCI([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                DataTable dt = lib.CallProcedure("ino_createRencanaVCI", EncodeData.HtmlEncodeObject(value));
+                int rciId = Convert.ToInt32(dt.Rows[0]["hasil"]);
+
+                foreach (var member in value["member"])
+                {
+                    lib.CallProcedure("ino_createMemberDetail", EncodeData.HtmlEncodeObject(new JObject
+                    {
+                        { "rciId", rciId },
+                        { "memNpk", member["memNpk"] },
+                        { "memPost", member["memPost"] }
+                    }));
+                }
+
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                return BadRequest();
+            }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetRencanaVCI([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getRencanaVCI", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetRencanaVCIById([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getRencanaVCIById", EncodeData.HtmlEncodeObject(value));
+                int rciId = Convert.ToInt32(dt.Rows[0]["Key"]);
+                DataTable res = lib.CallProcedure("ino_getMemberDetailByRencanaCircle", EncodeData.HtmlEncodeObject(new JObject
+                {
+                    { "rciId", rciId }
+                }));
+                JObject result = new JObject();
+
+                if (dt.Rows.Count > 0)
+                {
+                    foreach (DataColumn col in dt.Columns)
+                    {
+                        result[col.ColumnName] = JToken.FromObject(dt.Rows[0][col]);
+                    }
+                }
+
+                JArray members = new JArray();
+                foreach (DataRow row in res.Rows)
+                {
+                    JObject member = new JObject();
+                    foreach (DataColumn col in res.Columns)
+                    {
+                        member[col.ColumnName] = JToken.FromObject(row[col]);
+                    }
+                    members.Add(member);
+                }
+
+                result["member"] = members;
+                return Ok(JsonConvert.SerializeObject(result));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetRencanaVCIByIdforEdit([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getRencanaVCIByIdforEdit", EncodeData.HtmlEncodeObject(value));
+                int rciId = Convert.ToInt32(dt.Rows[0]["Key"]);
+                DataTable res = lib.CallProcedure("ino_getMemberDetailByRencanaCircle", EncodeData.HtmlEncodeObject(new JObject
+                {
+                    { "rciId", rciId }
+                }));
+                JObject result = new JObject();
+
+                if (dt.Rows.Count > 0)
+                {
+                    foreach (DataColumn col in dt.Columns)
+                    {
+                        result[col.ColumnName] = JToken.FromObject(dt.Rows[0][col]);
+                    }
+                }
+
+                JArray members = new JArray();
+                foreach (DataRow row in res.Rows)
+                {
+                    JObject member = new JObject();
+                    foreach (DataColumn col in res.Columns)
+                    {
+                        member[col.ColumnName] = JToken.FromObject(row[col]);
+                    }
+                    members.Add(member);
+                }
+
+                result["member"] = members;
+                return Ok(JsonConvert.SerializeObject(result));
+            }
+            catch { return BadRequest(); }
+        }
+        [Authorize]
+        [HttpPost]
+        public IActionResult UpdateRencanaVCI([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                int rciId = Convert.ToInt32(value["rciId"]);
+
+                dt = lib.CallProcedure("ino_updateRencanaVCI", EncodeData.HtmlEncodeObject(value));
+
+                DataTable res = lib.CallProcedure("ino_getMemberDetailByRencanaCircle", EncodeData.HtmlEncodeObject(new JObject
+                {
+                    { "rciId", rciId }
+                }));
+
+                int pMemberCount = value["member"].ToArray().Length;
+                int dbMemberCount = res.Rows.Count;
+                bool isRemove = dbMemberCount > pMemberCount;
+
+                if (isRemove)
+                {
+                    for (int i = 0; i < dbMemberCount; i++)
+                    {
+                        string npk = res.Rows[i]["Npk"].ToString();
+                        string rciID = res.Rows[i]["RciId"].ToString();
+
+                        JObject? matchingMember = value["member"]
+                            .FirstOrDefault(m => m["memNpk"].ToString() == npk && rciId.ToString() == rciID) as JObject;
+
+
+                        if (matchingMember != null)
+                        {
+                            lib.CallProcedure("ino_updateMemberDetail", EncodeData.HtmlEncodeObject(new JObject
+                            {
+                                { "rciId", rciId },
+                                { "memNpk", matchingMember["memNpk"] },
+                                { "memPost", matchingMember["memPost"] }
+                            }));
+                        }
+                        else
+                        {
+                            DataTable del = lib.CallProcedure("ino_deleteMemberDetail", EncodeData.HtmlEncodeObject(new JObject
+                            {
+                                { "rciId", rciId },
+                                { "memNpk", npk }
+                            }));
+                            Console.WriteLine(JsonConvert.SerializeObject(del));
+                        }
+                    }
+                }
+                else
+                {
+                    for (int i = 0; i < pMemberCount; i++)
+                    {
+                        string npk = value["member"][i]["memNpk"].ToString();
+
+                        DataRow matchingMember = res.AsEnumerable().FirstOrDefault(m => m["Npk"].ToString() == npk);
+
+                        if (matchingMember != null)
+                        {
+                            lib.CallProcedure("ino_updateMemberDetail", EncodeData.HtmlEncodeObject(new JObject
+                            {
+                                { "rciId", rciId },
+                                { "memNpk", npk },
+                                { "memPost", value["member"][i]["memPost"] }
+                            }));
+                        }
+                        else
+                        {
+                            lib.CallProcedure("ino_createMemberDetail", EncodeData.HtmlEncodeObject(new JObject
+                            {
+                                { "rciId", rciId },
+                                { "memNpk", npk },
+                                { "memPost", value["member"][i]["memPost"] }
+                            }));
+                        }
+                    }
+
+                }
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
     }
 }

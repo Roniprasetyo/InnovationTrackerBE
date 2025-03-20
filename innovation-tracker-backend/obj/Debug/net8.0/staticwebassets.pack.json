@@ -1,16 +1,184 @@
 {
   "Files": [
     {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_0bc4a76e-e48e-41f4-b9a8-1371f777fb21_2025319203641.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_0bc4a76e-e48e-41f4-b9a8-1371f777fb21_2025319203641.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_0f052d7d-52d7-482c-a69e-53fb1e82b585_2025319125359.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_0f052d7d-52d7-482c-a69e-53fb1e82b585_2025319125359.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_11a92049-8032-459c-ae1c-4bbef9fffd2d_202531912315.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_11a92049-8032-459c-ae1c-4bbef9fffd2d_202531912315.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_122b51b0-186e-4b21-8873-3dd2983cf9d5_2025319225659.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_122b51b0-186e-4b21-8873-3dd2983cf9d5_2025319225659.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_1502ed74-5fdc-476c-9b24-237a9b84318f_2025319215749.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_1502ed74-5fdc-476c-9b24-237a9b84318f_2025319215749.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_20a5bfa6-490f-4a86-9a86-5fda740a4837_202531913545.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_20a5bfa6-490f-4a86-9a86-5fda740a4837_202531913545.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_2676ffd6-ca14-49d5-90f5-1c62b893574e_202532005029.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_2676ffd6-ca14-49d5-90f5-1c62b893574e_202532005029.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_3db92b2f-06c3-49e9-af93-2a40676f731a_2025319213046.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_3db92b2f-06c3-49e9-af93-2a40676f731a_2025319213046.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_42821c97-b5da-4604-8927-2aef8fb1a054_202532004920.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_42821c97-b5da-4604-8927-2aef8fb1a054_202532004920.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_4f6b2bdc-bd7f-4b0f-81bf-42431b2f15e4_2025319225659.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_4f6b2bdc-bd7f-4b0f-81bf-42431b2f15e4_2025319225659.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_4fa7842b-a0a4-46b6-90b5-1d9c40657d3d_2025319125359.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_4fa7842b-a0a4-46b6-90b5-1d9c40657d3d_2025319125359.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_66c8c6be-54ef-47b1-a1bf-b3efafbde98d_2025319225846.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_66c8c6be-54ef-47b1-a1bf-b3efafbde98d_2025319225846.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_69c5a97d-a51c-4afb-a5cf-a89ab83287d6_2025319125956.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_69c5a97d-a51c-4afb-a5cf-a89ab83287d6_2025319125956.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_6a50a987-0628-45c3-bb93-e805d4819b87_202531912315.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_6a50a987-0628-45c3-bb93-e805d4819b87_202531912315.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_72b1965b-c90f-432b-b237-f2779ae35322_2025319203641.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_72b1965b-c90f-432b-b237-f2779ae35322_2025319203641.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_7cba774d-1d14-4ba1-a021-6eb092dbe82f_202531823219.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_7cba774d-1d14-4ba1-a021-6eb092dbe82f_202531823219.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_8a177b80-beec-4da6-ac68-18c39191a853_2025319121134.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_8a177b80-beec-4da6-ac68-18c39191a853_2025319121134.pdf"
+    },
+    {
       "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_8c8d5cb1-6550-46b6-8d54-e0f37dc37b48_2025317184729.pdf",
       "PackagePath": "staticwebassets\\Uploads\\FILE_8c8d5cb1-6550-46b6-8d54-e0f37dc37b48_2025317184729.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_932566be-6e86-4eb4-9612-10ba3f87a1cb_2025318232459.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_932566be-6e86-4eb4-9612-10ba3f87a1cb_2025318232459.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_9445fd36-d611-437a-a343-fc3719c5b1cc_202532004920.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_9445fd36-d611-437a-a343-fc3719c5b1cc_202532004920.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_9938ef67-f9f9-4024-b36a-9e17b06f0728_2025319213046.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_9938ef67-f9f9-4024-b36a-9e17b06f0728_2025319213046.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_a44e8eb9-a35e-4e2b-9a4a-47100c4e6d9f_202532004920.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_a44e8eb9-a35e-4e2b-9a4a-47100c4e6d9f_202532004920.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_a661f6a7-c979-43d7-8463-51a1e404c952_202531913545.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_a661f6a7-c979-43d7-8463-51a1e404c952_202531913545.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_aae219b9-bef3-403e-a4bb-30488d4dfa69_2025318232459.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_aae219b9-bef3-403e-a4bb-30488d4dfa69_2025318232459.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_ad0993f5-9b01-45ae-9a3f-a3b2023d22cb_2025319121134.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_ad0993f5-9b01-45ae-9a3f-a3b2023d22cb_2025319121134.pdf"
     },
     {
       "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_b0d090e4-ceed-403b-b5de-d615076acef4_2025317184729.pdf",
       "PackagePath": "staticwebassets\\Uploads\\FILE_b0d090e4-ceed-403b-b5de-d615076acef4_2025317184729.pdf"
     },
     {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_bbf32097-5610-429b-a19c-67a181344205_2025319225659.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_bbf32097-5610-429b-a19c-67a181344205_2025319225659.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_bc2c6887-f685-4cb0-8309-e400bede4248_202531823219.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_bc2c6887-f685-4cb0-8309-e400bede4248_202531823219.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_be70cfe2-64db-4c12-b25e-a7129c371b31_202531913545.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_be70cfe2-64db-4c12-b25e-a7129c371b31_202531913545.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_bf734d23-14ca-46f5-82ae-523380d9ce53_2025319203641.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_bf734d23-14ca-46f5-82ae-523380d9ce53_2025319203641.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_c5347fe8-9730-45c9-b7e2-284a8e44a32e_2025319225846.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_c5347fe8-9730-45c9-b7e2-284a8e44a32e_2025319225846.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_c801e326-f99f-42a6-9c3b-2aab8a59e0e7_202531912315.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_c801e326-f99f-42a6-9c3b-2aab8a59e0e7_202531912315.pdf"
+    },
+    {
       "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_d1b76b51-8c8b-419e-a645-e2c84caccc38_2025317184729.pdf",
       "PackagePath": "staticwebassets\\Uploads\\FILE_d1b76b51-8c8b-419e-a645-e2c84caccc38_2025317184729.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_d29f82cc-a3da-4236-ad16-0b1461cdbc24_2025319125359.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_d29f82cc-a3da-4236-ad16-0b1461cdbc24_2025319125359.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_d7799252-a0d5-412b-bb66-b9fe7e1fb2be_2025319215749.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_d7799252-a0d5-412b-bb66-b9fe7e1fb2be_2025319215749.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_dbd419dc-8df1-4dc0-a58a-1f4079a61ccc_202532005029.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_dbd419dc-8df1-4dc0-a58a-1f4079a61ccc_202532005029.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_dbd96869-cf6e-4c1e-90a1-23d7c66dfb73_2025319225846.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_dbd96869-cf6e-4c1e-90a1-23d7c66dfb73_2025319225846.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_dd4b0062-5dcf-413d-9f46-73fd9fde238c_2025319121134.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_dd4b0062-5dcf-413d-9f46-73fd9fde238c_2025319121134.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_e2d9f11c-35a3-4f46-b91d-7eab06751219_202531823219.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_e2d9f11c-35a3-4f46-b91d-7eab06751219_202531823219.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_e636aa88-4e80-4aa1-b7d7-958ca5501a3a_2025319215749.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_e636aa88-4e80-4aa1-b7d7-958ca5501a3a_2025319215749.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_e83fc310-e972-4177-bad1-a57edcf8f9e3_2025319125956.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_e83fc310-e972-4177-bad1-a57edcf8f9e3_2025319125956.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_e8ce0fe8-ea02-445a-8e83-3cba6cfac15f_202532005029.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_e8ce0fe8-ea02-445a-8e83-3cba6cfac15f_202532005029.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_eb554eb6-eca3-48e2-abd8-b5231a4189de_2025318232459.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_eb554eb6-eca3-48e2-abd8-b5231a4189de_2025318232459.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_f26039de-1d0e-452f-8945-b843717fb74d_2025319125956.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_f26039de-1d0e-452f-8945-b843717fb74d_2025319125956.pdf"
+    },
+    {
+      "Id": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_fda0e568-04bf-4593-a115-c8f3968d1f3e_2025319213046.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\FILE_fda0e568-04bf-4593-a115-c8f3968d1f3e_2025319213046.pdf"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.innovation-tracker-backend.props",
