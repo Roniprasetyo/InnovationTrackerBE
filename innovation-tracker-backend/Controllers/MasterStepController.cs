@@ -10,7 +10,7 @@ namespace innovation_tracker_backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
-    public class MasterSettingController(IConfiguration configuration) : Controller
+    public class MasterStepController(IConfiguration configuration) : Controller
     {
         //readonly PolmanAstraLibrary.PolmanAstraLibrary lib = new(PolmanAstraLibrary.PolmanAstraLibrary.Decrypt(configuration.GetConnectionString("DefaultConnection"), "PoliteknikAstra_ConfigurationKey"));
         readonly PolmanAstraLibrary.PolmanAstraLibrary lib = new(configuration.GetConnectionString("DefaultConnection"));
@@ -19,12 +19,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult CreateSetting([FromBody] dynamic data)
+        public IActionResult CreateStep([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString()); 
-                dt = lib.CallProcedure("ino_createSetting", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_createStep", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -32,12 +32,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetSetting([FromBody] dynamic data)
+        public IActionResult GetStep([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getSetting", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getStep", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -45,12 +45,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetSettingById([FromBody] dynamic data)
+        public IActionResult GetStepById([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getSettingById", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getStepById", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -58,12 +58,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetListSetting([FromBody] dynamic data)
+        public IActionResult GetListStep([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getListSetting", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getListStep", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -71,12 +71,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult UpdateSetting([FromBody] dynamic data)
+        public IActionResult UpdateStep([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_updateSetting", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_updateStep", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -84,12 +84,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult setStatusSetting([FromBody] dynamic data)
+        public IActionResult setStatusStep([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_setStatusSetting", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_setStatusStep", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }

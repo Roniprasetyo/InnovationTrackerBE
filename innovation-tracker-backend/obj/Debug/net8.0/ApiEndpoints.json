@@ -96,6 +96,102 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "CreateStep",
+    "RelativePath": "api/MasterStep/CreateStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "GetListStep",
+    "RelativePath": "api/MasterStep/GetListStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "GetStep",
+    "RelativePath": "api/MasterStep/GetStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "GetStepById",
+    "RelativePath": "api/MasterStep/GetStepById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "setStatusStep",
+    "RelativePath": "api/MasterStep/setStatusStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "UpdateStep",
+    "RelativePath": "api/MasterStep/UpdateStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "innovation_tracker_backend.Controllers.UploadController",
     "Method": "UploadFile",
     "RelativePath": "api/Upload/UploadFile",
