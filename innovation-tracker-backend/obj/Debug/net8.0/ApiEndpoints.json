@@ -609,8 +609,24 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
-    "Method": "GetListSetting",
-    "RelativePath": "api/MiniConvention/GetListSetting",
+    "Method": "GetListDetailKriteriaPenilaian",
+    "RelativePath": "api/MiniConvention/GetListDetailKriteriaPenilaian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "GetListKriteriaPenilaian",
+    "RelativePath": "api/MiniConvention/GetListKriteriaPenilaian",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

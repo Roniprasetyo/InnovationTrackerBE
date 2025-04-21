@@ -46,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 287,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,14 +60,10 @@
               "RelativeDocumentMoniker": "Controllers\\MiniConventionController.cs",
               "ToolTip": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\Controllers\\MiniConventionController.cs",
               "RelativeToolTip": "Controllers\\MiniConventionController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAswCgAAAA7AAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowFUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T03:08:23.583Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Controllers\\RencanaSSController.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAswCMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:40:17.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T05:40:17.938Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "Controllers\\MasterSettingController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA+wBQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T23:47:25.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T23:47:25.507Z"
             },
             {
               "$type": "Document",

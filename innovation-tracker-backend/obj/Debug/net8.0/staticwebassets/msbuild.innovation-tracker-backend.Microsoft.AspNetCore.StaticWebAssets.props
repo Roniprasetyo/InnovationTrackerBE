@@ -16,6 +16,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_029d1eb8-917c-44eb-9e85-9347e158dc7d_2025411111823.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_1680262b-4e73-4de2-9148-9f8b61c8865b_2025415214348.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>innovation-tracker-backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/innovation-tracker-backend</BasePath>
+      <RelativePath>Uploads/FILE_1680262b-4e73-4de2-9148-9f8b61c8865b_2025415214348.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_1680262b-4e73-4de2-9148-9f8b61c8865b_2025415214348.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_18354e18-36a5-47cc-bdd8-8ab89d32d8b8_2025410142115.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>innovation-tracker-backend</SourceId>
@@ -256,6 +272,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_8ae5248b-49eb-4d5f-83ca-7c500da95ae3_2025411104845.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_9c6f6eeb-4896-498b-898e-450736e99a3e_2025415214348.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>innovation-tracker-backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/innovation-tracker-backend</BasePath>
+      <RelativePath>Uploads/FILE_9c6f6eeb-4896-498b-898e-450736e99a3e_2025415214348.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_9c6f6eeb-4896-498b-898e-450736e99a3e_2025415214348.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_a7364f13-3268-4b00-887c-c7fcb9ee2c6e_202548213212.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>innovation-tracker-backend</SourceId>
@@ -319,6 +351,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_b5705fdc-453a-4e1a-a1e0-00c1f6947233_202541195552.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_cef662d3-81a6-4dd2-a447-22e31dfcf8a0_2025415214348.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>innovation-tracker-backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/innovation-tracker-backend</BasePath>
+      <RelativePath>Uploads/FILE_cef662d3-81a6-4dd2-a447-22e31dfcf8a0_2025415214348.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_cef662d3-81a6-4dd2-a447-22e31dfcf8a0_2025415214348.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\FILE_d6947666-6028-4310-ab71-235d57e98793_2025412154922.pdf))">
       <SourceType>Package</SourceType>

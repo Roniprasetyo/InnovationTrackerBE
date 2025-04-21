@@ -71,12 +71,25 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetListSetting([FromBody] dynamic data)
+        public IActionResult GetListKriteriaPenilaian([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getListSetting", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getListKriteriaPenilaian", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetListDetailKriteriaPenilaian([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getListDetailKriteriaPenilaian", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
