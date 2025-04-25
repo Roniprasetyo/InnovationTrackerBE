@@ -1,29 +1,30 @@
-﻿using innovation_tracker_backend.Helper;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using innovation_tracker_backend.Helper;
 using System.Data;
+using System.Runtime.Versioning;
 
 namespace innovation_tracker_backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
-    public class RencanaSSController(IConfiguration configuration) : Controller
+    public class MiniConventionController(IConfiguration configuration) : Controller
     {
+        //readonly PolmanAstraLibrary.PolmanAstraLibrary lib = new(PolmanAstraLibrary.PolmanAstraLibrary.Decrypt(configuration.GetConnectionString("DefaultConnection"), "PoliteknikAstra_ConfigurationKey"));
         readonly PolmanAstraLibrary.PolmanAstraLibrary lib = new(configuration.GetConnectionString("DefaultConnection"));
         readonly LDAPAuthentication adAuth = new(configuration);
         DataTable dt = new();
 
         [Authorize]
         [HttpPost]
-        public IActionResult CreateRencanaSS([FromBody] dynamic data)
+        public IActionResult CreateSetting([FromBody] dynamic data)
         {
             try
             {
-                JObject value = JObject.Parse(data.ToString());
-                DataTable dt = lib.CallProcedure("ino_createRencanaSS", EncodeData.HtmlEncodeObject(value));
-
+                JObject value = JObject.Parse(data.ToString()); 
+                dt = lib.CallProcedure("ino_createSetting", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -31,13 +32,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult CreateKonvensiSS([FromBody] dynamic data)
+        public IActionResult GetMiniConvention([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                DataTable dt = lib.CallProcedure("ino_createKonvensiSS", EncodeData.HtmlEncodeObject(value));
-
+                dt = lib.CallProcedure("ino_getMiniConvention", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -45,30 +45,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult UpdateRencanaSS([FromBody] dynamic data)
+        public IActionResult GetMiniConventionById([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-
-                dt = lib.CallProcedure("ino_updateRencanaSS", EncodeData.HtmlEncodeObject(value));
-
-                return Ok(JsonConvert.SerializeObject(dt));
-            }
-            catch
-            {
-                return BadRequest();
-            }
-        }
-
-        [Authorize]
-        [HttpPost]
-        public IActionResult GetRencanaSS([FromBody] dynamic data)
-        {
-            try
-            {
-                JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getRencanaSS", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getMiniConventionById", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -76,12 +58,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetListReviewer([FromBody] dynamic data)
+        public IActionResult GetSettingById([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getListReviewer", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getSettingById", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -89,12 +71,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult GetRencanaSSById([FromBody] dynamic data)
+        public IActionResult GetListSetting([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_getRencanaSSById", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_getListSetting", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -102,12 +84,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult SentRencanaSS([FromBody] dynamic data)
+        public IActionResult UpdateSetting([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_sentRencanaSS", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_updateSetting", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -115,12 +97,12 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult SetApproveRencanaSS([FromBody] dynamic data)
+        public IActionResult setStatusSetting([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_setApproveRencanaSS", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_setStatusSetting", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }

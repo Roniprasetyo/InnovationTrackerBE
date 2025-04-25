@@ -384,6 +384,102 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "CreateStep",
+    "RelativePath": "api/MasterStep/CreateStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "GetListStep",
+    "RelativePath": "api/MasterStep/GetListStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "GetStep",
+    "RelativePath": "api/MasterStep/GetStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "GetStepById",
+    "RelativePath": "api/MasterStep/GetStepById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "setStatusStep",
+    "RelativePath": "api/MasterStep/setStatusStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MasterStepController",
+    "Method": "UpdateStep",
+    "RelativePath": "api/MasterStep/UpdateStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
     "Method": "CreateUser",
     "RelativePath": "api/MasterUser/CreateUser",
@@ -483,6 +579,118 @@
     "ContainingType": "innovation_tracker_backend.Controllers.MasterUserController",
     "Method": "UpdateUser",
     "RelativePath": "api/MasterUser/UpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "CreateSetting",
+    "RelativePath": "api/MiniConvention/CreateSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "GetListSetting",
+    "RelativePath": "api/MiniConvention/GetListSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "GetMiniConvention",
+    "RelativePath": "api/MiniConvention/GetMiniConvention",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "GetMiniConventionById",
+    "RelativePath": "api/MiniConvention/GetMiniConventionById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "GetSettingById",
+    "RelativePath": "api/MiniConvention/GetSettingById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "setStatusSetting",
+    "RelativePath": "api/MiniConvention/setStatusSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.MiniConventionController",
+    "Method": "UpdateSetting",
+    "RelativePath": "api/MiniConvention/UpdateSetting",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -721,8 +929,40 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "CreateKonvensiSS",
+    "RelativePath": "api/RencanaSS/CreateKonvensiSS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
     "Method": "CreateRencanaSS",
     "RelativePath": "api/RencanaSS/CreateRencanaSS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetListReviewer",
+    "RelativePath": "api/RencanaSS/GetListReviewer",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -771,6 +1011,22 @@
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
     "Method": "SentRencanaSS",
     "RelativePath": "api/RencanaSS/SentRencanaSS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "SetApproveRencanaSS",
+    "RelativePath": "api/RencanaSS/SetApproveRencanaSS",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -849,6 +1105,22 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetDataCountingDashboard",
+    "RelativePath": "api/Utilities/GetDataCountingDashboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
     "Method": "GetDataCountingNotifikasi",
     "RelativePath": "api/Utilities/GetDataCountingNotifikasi",
     "HttpMethod": "POST",
@@ -881,8 +1153,104 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetListKabupaten",
+    "RelativePath": "api/Utilities/GetListKabupaten",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetListKaryawan",
+    "RelativePath": "api/Utilities/GetListKaryawan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetListKecamatan",
+    "RelativePath": "api/Utilities/GetListKecamatan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetListKelurahan",
+    "RelativePath": "api/Utilities/GetListKelurahan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
     "Method": "GetListMenu",
     "RelativePath": "api/Utilities/GetListMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetListProvinsi",
+    "RelativePath": "api/Utilities/GetListProvinsi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
+    "Method": "GetListRekening",
+    "RelativePath": "api/Utilities/GetListRekening",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
