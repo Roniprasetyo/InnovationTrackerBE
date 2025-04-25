@@ -5,6 +5,9 @@ using Newtonsoft.Json.Linq;
 using innovation_tracker_backend.Helper;
 using System.Data;
 using System.Runtime.Versioning;
+using OfficeOpenXml.Style;
+using OfficeOpenXml;
+using System.Drawing;
 
 namespace innovation_tracker_backend.Controllers
 {
@@ -123,6 +126,55 @@ namespace innovation_tracker_backend.Controllers
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
+        }
+
+        public static IActionResult ExportToExcel(DataTable data, string fileName = "Export.xlsx")
+        {
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Required for EPPlus from v5+
+
+            using (var package = new ExcelPackage())
+            {
+                var worksheet = package.Workbook.Worksheets.Add("Sheet1");
+
+                // Add Header
+                for (int col = 0; col < data.Columns.Count; col++)
+                {
+                    worksheet.Cells[1, col + 1].Value = data.Columns[col].ColumnName;
+                    worksheet.Cells[1, col + 1].Style.Font.Bold = true;
+                    worksheet.Cells[1, col + 1].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                    worksheet.Cells[1, col + 1].Style.Fill.BackgroundColor.SetColor(Color.LightGray);
+                }
+
+                // Add Data
+                for (int row = 0; row < data.Rows.Count; row++)
+                {
+                    for (int col = 0; col < data.Columns.Count; col++)
+                    {
+                        var value = data.Rows[row][col];
+                        var cell = worksheet.Cells[row + 2, col + 1];
+                        cell.Value = value;
+
+                        // Apply formatting
+                        if (value is DateTime || DateTime.TryParse(value.ToString(), out _))
+                        {
+                            cell.Style.Numberformat.Format = "MM/dd/yyyy";
+                        }
+                        else if (double.TryParse(value.ToString(), out _))
+                        {
+                            cell.Style.HorizontalAlignment = ExcelHorizontalAlignment.Right;
+                        }
+                    }
+                }
+
+                worksheet.Cells.AutoFitColumns();
+
+                var stream = new MemoryStream(package.GetAsByteArray());
+                return new FileContentResult(stream.ToArray(),
+                                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+                {
+                    FileDownloadName = fileName
+                };
+            }
         }
     }
 }

@@ -4,6 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.Data;
+using OfficeOpenXml.Style;
+using OfficeOpenXml;
+using System.Drawing;
+using System.Net;
+using System.Text.RegularExpressions;
 
 namespace innovation_tracker_backend.Controllers
 {
@@ -125,5 +130,93 @@ namespace innovation_tracker_backend.Controllers
             }
             catch { return BadRequest(); }
         }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult getAllDataSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getAllRencanaSS", EncodeData.HtmlEncodeObject(value));
+                if (dt.Rows.Count > 0)
+                {
+                    dt.Columns.Remove("Key");
+                    dt.Columns.Remove("Count");
+                    dt.Columns.Remove("Facil");
+                    dt.Columns.Add("NPK");
+                    dt.Columns.Add("Name");
+                    dt.Columns.Add("Section");
+                    dt.Columns.Add("Department");
+                    dt.Columns.Add("Submitted On");
+
+
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        JObject kry = new JObject
+                    {
+                        { "username", "-" },
+                        { "nama", "-" },
+                        { "npk", "-" },
+                        { "upt", "-" },
+                        { "departmen", "-" }
+                    };
+                        foreach (var member in value["kryData"])
+                        {
+                            if (member["username"].ToString().Equals(row["Creaby"].ToString()))
+                            {
+                                kry = JObject.Parse(member.ToString());
+                                break;
+                            }
+                        }
+
+                        row["NPK"] = kry["npk"].ToString();
+                        row["Name"] = kry["nama"];
+                        row["Section"] = kry["upt"];
+                        row["Department"] = kry["departmen"];
+                        row["Submitted On"] = row["Creadate"];
+                        row["Project Title"] = Regex.Replace(
+                            WebUtility.HtmlDecode(row["Project Title"].ToString()),
+                            "<.*?>",
+                            string.Empty
+                        );
+                        row["Score"] = row["Score"].ToString().Equals("") ? 0 : row["Score"];
+                    }
+                    dt.Columns.Remove("Creadate");
+                    dt.Columns.Remove("Creaby");
+
+                    dt.Columns["No"].SetOrdinal(0);
+                    dt.Columns["NPK"].SetOrdinal(1);
+                    dt.Columns["Name"].SetOrdinal(2);
+                    dt.Columns["Section"].SetOrdinal(3);
+                    dt.Columns["Department"].SetOrdinal(4);
+                    dt.Columns["Project Title"].SetOrdinal(5);
+                    dt.Columns["Category"].SetOrdinal(6);
+                    dt.Columns["Start Date"].SetOrdinal(7);
+                    dt.Columns["End Date"].SetOrdinal(8);
+                    dt.Columns["Period"].SetOrdinal(9);
+                    dt.Columns["Submitted On"].SetOrdinal(10);
+                    dt.Columns["Status"].SetOrdinal(11);
+                    dt.Columns["Score"].SetOrdinal(12);
+
+                    return Ok(UtilitiesController.ExportToExcel(dt, "SS_" +
+                        "_" +
+                        DateTime.Now.Year +
+                        DateTime.Now.Month +
+                        DateTime.Now.Day +
+                        "_" +
+                        DateTime.Now.Hour +
+                        DateTime.Now.Minute +
+                        DateTime.Now.Second + ".xlsx"));
+                }
+                else
+                {
+                    return BadRequest();
+                }
+                
+            }
+            catch { return BadRequest(); }
+        }
+
     }
 }

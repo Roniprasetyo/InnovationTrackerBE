@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "innovation_tracker_backend.Controllers.ChartController",
+    "Method": "GetAllSubbmision",
+    "RelativePath": "api/Chart/GetAllSubbmision",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "innovation_tracker_backend.Controllers.MasterFacilitatorController",
     "Method": "CreateFacilitator",
     "RelativePath": "api/MasterFacilitator/CreateFacilitator",
@@ -961,6 +977,22 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "getAllDataSS",
+    "RelativePath": "api/RencanaSS/getAllDataSS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
     "Method": "GetListReviewer",
     "RelativePath": "api/RencanaSS/GetListReviewer",
     "HttpMethod": "POST",
@@ -1105,22 +1137,6 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetDataCountingDashboard",
-    "RelativePath": "api/Utilities/GetDataCountingDashboard",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
     "Method": "GetDataCountingNotifikasi",
     "RelativePath": "api/Utilities/GetDataCountingNotifikasi",
     "HttpMethod": "POST",
@@ -1153,104 +1169,8 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetListKabupaten",
-    "RelativePath": "api/Utilities/GetListKabupaten",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetListKaryawan",
-    "RelativePath": "api/Utilities/GetListKaryawan",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetListKecamatan",
-    "RelativePath": "api/Utilities/GetListKecamatan",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetListKelurahan",
-    "RelativePath": "api/Utilities/GetListKelurahan",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
     "Method": "GetListMenu",
     "RelativePath": "api/Utilities/GetListMenu",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetListProvinsi",
-    "RelativePath": "api/Utilities/GetListProvinsi",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "data",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "innovation_tracker_backend.Controllers.UtilitiesController",
-    "Method": "GetListRekening",
-    "RelativePath": "api/Utilities/GetListRekening",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
