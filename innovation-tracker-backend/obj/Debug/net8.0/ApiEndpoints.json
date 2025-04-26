@@ -961,6 +961,22 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "CreatePenilaian",
+    "RelativePath": "api/RencanaSS/CreatePenilaian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
     "Method": "CreateRencanaSS",
     "RelativePath": "api/RencanaSS/CreateRencanaSS",
     "HttpMethod": "POST",
@@ -977,8 +993,136 @@
   },
   {
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetAllPenilaianById",
+    "RelativePath": "api/RencanaSS/GetAllPenilaianById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetDetailPenilaian",
+    "RelativePath": "api/RencanaSS/GetDetailPenilaian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetListDetailKriteriaPenilaian",
+    "RelativePath": "api/RencanaSS/GetListDetailKriteriaPenilaian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
     "Method": "GetListReviewer",
     "RelativePath": "api/RencanaSS/GetListReviewer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetListSettingRanking",
+    "RelativePath": "api/RencanaSS/GetListSettingRanking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetListStrukturDepartment",
+    "RelativePath": "api/RencanaSS/GetListStrukturDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetPenilaian",
+    "RelativePath": "api/RencanaSS/GetPenilaian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetPenilaianById",
+    "RelativePath": "api/RencanaSS/GetPenilaianById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetPenilaianByIdForKaProd",
+    "RelativePath": "api/RencanaSS/GetPenilaianByIdForKaProd",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1011,6 +1155,22 @@
     "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
     "Method": "GetRencanaSSById",
     "RelativePath": "api/RencanaSS/GetRencanaSSById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "innovation_tracker_backend.Controllers.RencanaSSController",
+    "Method": "GetRencanaSSByIdV2",
+    "RelativePath": "api/RencanaSS/GetRencanaSSByIdV2",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
