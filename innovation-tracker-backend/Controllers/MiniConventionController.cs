@@ -110,7 +110,7 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult setStatusSetting([FromBody] dynamic data)
+        public IActionResult SetStatusSetting([FromBody] dynamic data)
         {
             try
             {
