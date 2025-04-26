@@ -107,12 +107,90 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
+        public IActionResult GetRencanaSSByIdV2([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getRencanaSSByIdV2", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
         public IActionResult SentRencanaSS([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
                 dt = lib.CallProcedure("ino_sentRencanaSS", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetPenilaian([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaian", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetPenilaianById([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaianById", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetAllPenilaianById([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getAllPenilaianById", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetPenilaianByIdForKaProd([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaianByIdForKaProd", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetDetailPenilaian([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaianById2", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -133,11 +211,16 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
+<<<<<<< HEAD
         public IActionResult getAllDataSS([FromBody] dynamic data)
+=======
+        public IActionResult GetListDetailKriteriaPenilaian([FromBody] dynamic data)
+>>>>>>> branch-affan
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
+<<<<<<< HEAD
                 dt = lib.CallProcedure("ino_getAllRencanaSS", EncodeData.HtmlEncodeObject(value));
                 if (dt.Rows.Count > 0)
                 {
@@ -214,9 +297,54 @@ namespace innovation_tracker_backend.Controllers
                     return BadRequest();
                 }
                 
+=======
+                dt = lib.CallProcedure("ino_getListDetailKriteriaPenilaian", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+>>>>>>> branch-affan
             }
             catch { return BadRequest(); }
         }
 
+<<<<<<< HEAD
+=======
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetListSettingRanking([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getListSettingForRanking", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult CreatePenilaian([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_createPenilaian", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetListStrukturDepartment([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getListStrukturDepartment", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+>>>>>>> branch-affan
     }
 }

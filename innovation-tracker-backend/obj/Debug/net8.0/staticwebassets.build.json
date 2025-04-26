@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "RMl5+3QYPVUxrnO0ZsD5hyus9M4TsUGAUfV6//X4EzU=",
+=======
+  "Hash": "jXoh0apciHLd5vpc/7xbIvaxk36S3A7iK48m6bHWDes=",
+>>>>>>> branch-affan
   "Source": "innovation-tracker-backend",
   "BasePath": "_content/innovation-tracker-backend",
   "Mode": "Default",
@@ -36,7 +40,30 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_029d1eb8-917c-44eb-9e85-9347e158dc7d_2025411111823.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_0bc4a76e-e48e-41f4-b9a8-1371f777fb21_2025319203641.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_1680262b-4e73-4de2-9148-9f8b61c8865b_2025415214348.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_1680262b-4e73-4de2-9148-9f8b61c8865b_2025415214348.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_1680262b-4e73-4de2-9148-9f8b61c8865b_2025415214348.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_18354e18-36a5-47cc-bdd8-8ab89d32d8b8_2025410142115.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
@@ -169,7 +196,30 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_1d20d63f-5c07-4439-ace5-f73a1e92a69d_202541195552.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_20a5bfa6-490f-4a86-9a86-5fda740a4837_202531913545.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_2444552e-ef0f-42e4-b103-b2ef0141b657_2025422162224.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_2444552e-ef0f-42e4-b103-b2ef0141b657_2025422162224.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_2444552e-ef0f-42e4-b103-b2ef0141b657_2025422162224.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_24c1f429-9dec-40ad-813a-16d64181b157_2025412154152.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
@@ -454,7 +504,49 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_5ff9e686-388e-4978-9f2e-aa2ecc563cb6_2025412154152.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_66c8c6be-54ef-47b1-a1bf-b3efafbde98d_2025319225846.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_722fc574-146a-45a1-be0e-056793cdf4b9_202542118556.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_722fc574-146a-45a1-be0e-056793cdf4b9_202542118556.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_722fc574-146a-45a1-be0e-056793cdf4b9_202542118556.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_72881295-4a6b-45a1-a762-b8eb87c0241f_2025421185114.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_72881295-4a6b-45a1-a762-b8eb87c0241f_2025421185114.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_72881295-4a6b-45a1-a762-b8eb87c0241f_2025421185114.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_789dd184-56d5-422a-9185-045b66524824_2025411104022.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
@@ -549,7 +641,30 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_789dd184-56d5-422a-9185-045b66524824_2025411104022.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_7cba774d-1d14-4ba1-a021-6eb092dbe82f_202531823219.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_7cead4e6-2e12-45e3-9955-161be78c6e02_202542118556.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_7cead4e6-2e12-45e3-9955-161be78c6e02_202542118556.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_7cead4e6-2e12-45e3-9955-161be78c6e02_202542118556.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_83bbc36c-f352-4986-ab65-3292b6d042a4_2025411111823.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
@@ -644,7 +759,49 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_8ae5248b-49eb-4d5f-83ca-7c500da95ae3_2025411104845.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_8c8d5cb1-6550-46b6-8d54-e0f37dc37b48_2025317184729.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_96146268-4ede-43ec-b32f-3347194d9dd9_2025421185114.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_96146268-4ede-43ec-b32f-3347194d9dd9_2025421185114.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_96146268-4ede-43ec-b32f-3347194d9dd9_2025421185114.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_9c6f6eeb-4896-498b-898e-450736e99a3e_2025415214348.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_9c6f6eeb-4896-498b-898e-450736e99a3e_2025415214348.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_9c6f6eeb-4896-498b-898e-450736e99a3e_2025415214348.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_a7364f13-3268-4b00-887c-c7fcb9ee2c6e_202548213212.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
@@ -891,7 +1048,30 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_b5705fdc-453a-4e1a-a1e0-00c1f6947233_202541195552.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_bbf32097-5610-429b-a19c-67a181344205_2025319225659.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_cef662d3-81a6-4dd2-a447-22e31dfcf8a0_2025415214348.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_cef662d3-81a6-4dd2-a447-22e31dfcf8a0_2025415214348.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_cef662d3-81a6-4dd2-a447-22e31dfcf8a0_2025415214348.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_d6947666-6028-4310-ab71-235d57e98793_2025412154922.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
@@ -1062,7 +1242,49 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\FILE_d6947666-6028-4310-ab71-235d57e98793_2025412154922.pdf"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_d7799252-a0d5-412b-bb66-b9fe7e1fb2be_2025319215749.pdf",
+=======
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_e2136b8b-1628-4703-828c-4dc1319b74ad_2025421185114.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_e2136b8b-1628-4703-828c-4dc1319b74ad_2025421185114.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_e2136b8b-1628-4703-828c-4dc1319b74ad_2025421185114.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_e3368f9e-ede9-41b8-a95a-28392365f53e_202542118556.pdf",
+      "SourceId": "innovation-tracker-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\",
+      "BasePath": "_content/innovation-tracker-backend",
+      "RelativePath": "Uploads/FILE_e3368f9e-ede9-41b8-a95a-28392365f53e_202542118556.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\FILE_e3368f9e-ede9-41b8-a95a-28392365f53e_202542118556.pdf"
+    },
+    {
+      "Identity": "F:\\WorkTools_InnoTrack\\InnovationTrackerBE\\innovation-tracker-backend\\wwwroot\\Uploads\\FILE_eef98c66-79bc-41f0-bbd5-8e406d9082c0_202541195552.pdf",
+>>>>>>> branch-affan
       "SourceId": "innovation-tracker-backend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\COLLEGE\\SEMESTER 4\\PROJECT\\INNOVATION TRACKER\\CODE-BE\\innovation-tracker-backend\\wwwroot\\",
