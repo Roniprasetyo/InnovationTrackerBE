@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.Data;
+using System.Net;
+using System.Text.RegularExpressions;
 
 namespace innovation_tracker_backend.Controllers
 {
@@ -24,6 +26,19 @@ namespace innovation_tracker_backend.Controllers
                 JObject value = JObject.Parse(data.ToString());
                 DataTable dt = lib.CallProcedure("ino_createRencanaSS", EncodeData.HtmlEncodeObject(value));
 
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult UpdateNilaiSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_updateNilaiSS", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -154,6 +169,102 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
+        public IActionResult getAllDataSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getAllRencanaSS", EncodeData.HtmlEncodeObject(value));
+                if (dt.Rows.Count > 0)
+                {
+                    dt.Columns.Remove("Key");
+                    dt.Columns.Remove("Count");
+                    dt.Columns.Remove("Facil");
+                    dt.Columns.Add("Section");
+                    dt.Columns.Add("Department");
+                    dt.Columns.Add("Submitted On");
+
+
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        JObject kry = new JObject
+                    {
+                        { "username", "-" },
+                        { "nama", "-" },
+                        { "npk", "-" },
+                        { "upt", "-" },
+                        { "departmen", "-" }
+                    };
+                        foreach (var member in value["kryData"])
+                        {
+                            if (member["username"].ToString().Equals(row["Creaby"].ToString()))
+                            {
+                                kry = JObject.Parse(member.ToString());
+                                break;
+                            }
+                        }
+
+                        row["NPK"] = kry["npk"].ToString();
+                        row["Name"] = kry["nama"];
+                        row["Section"] = kry["upt"];
+                        row["Department"] = kry["departmen"];
+                        row["Submitted On"] = row["Creadate"];
+                        row["Project Title"] = Regex.Replace(
+                            WebUtility.HtmlDecode(row["Project Title"].ToString()),
+                            "<.*?>",
+                            string.Empty
+                        );
+                        row["Score"] = row["Score"].ToString().Equals("") ? 0 : row["Score"];
+                    }
+                    dt.Columns.Remove("Creadate");
+                    dt.Columns.Remove("Creaby");
+                    dt.Columns.Remove("Atasan Facil");
+
+                    dt.Columns["No"].SetOrdinal(0);
+                    dt.Columns["NPK"].SetOrdinal(1);
+                    dt.Columns["Name"].SetOrdinal(2);
+                    dt.Columns["Section"].SetOrdinal(3);
+                    dt.Columns["Department"].SetOrdinal(4);
+                    dt.Columns["Project Title"].SetOrdinal(5);
+                    dt.Columns["Category"].SetOrdinal(6);
+                    dt.Columns["Start Date"].SetOrdinal(7);
+                    dt.Columns["End Date"].SetOrdinal(8);
+                    dt.Columns["Period"].SetOrdinal(9);
+                    dt.Columns["Batch"].SetOrdinal(10);
+                    dt.Columns["Submitted On"].SetOrdinal(11);
+                    dt.Columns["Score"].SetOrdinal(12);
+                    dt.Columns["Scoring Position"].SetOrdinal(13);
+                    dt.Columns["Status"].SetOrdinal(14);
+
+
+                    return Ok(UtilitiesController.ExportToExcel(dt, "SS_" +
+                        "_" +
+                        DateTime.Now.Year +
+                        DateTime.Now.Month +
+                        DateTime.Now.Day +
+                        "_" +
+                        DateTime.Now.Hour +
+                        DateTime.Now.Minute +
+                        DateTime.Now.Second + ".xlsx"));
+                }
+                else
+                {
+                    return BadRequest();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                /*Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);*/
+                return
+                    BadRequest();
+            }
+        }
+
+        [Authorize]
+        [HttpPost]
         public IActionResult GetAllPenilaianById([FromBody] dynamic data)
         {
             try
@@ -173,6 +284,19 @@ namespace innovation_tracker_backend.Controllers
             {
                 JObject value = JObject.Parse(data.ToString());
                 dt = lib.CallProcedure("ino_getPenilaianByIdForKaProd", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetPenilaianByIdForDirorWadir([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaianByIdForDirorWadir", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
@@ -232,17 +356,108 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
-        public IActionResult CreatePenilaian([FromBody] dynamic data)
+        public IActionResult UpdateStatusPenilaian([FromBody] dynamic data)
         {
             try
             {
                 JObject value = JObject.Parse(data.ToString());
-                dt = lib.CallProcedure("ino_createPenilaian", EncodeData.HtmlEncodeObject(value));
+                dt = lib.CallProcedure("ino_updateStatusPenilaian", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
         }
 
+        [Authorize]
+        [HttpPost]
+        public IActionResult CreatePenilaian([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_createPenilaian2", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetPenilaianByIDScoring([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaianByIdScoring", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetPenilaian2([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getPenilaia2", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetCountSSNeedAction([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getCountSSNeedAction", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult SetNonActiveRencanaSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_UpdateSistemSaranStatus", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetRencanaSSforInnoCoor([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getRencanaSSforInnoCoor", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult GetMyRencanaSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_getMyRencanaSS", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+        
         [Authorize]
         [HttpPost]
         public IActionResult GetListStrukturDepartment([FromBody] dynamic data)
@@ -251,6 +466,19 @@ namespace innovation_tracker_backend.Controllers
             {
                 JObject value = JObject.Parse(data.ToString());
                 dt = lib.CallProcedure("ino_getListStrukturDepartment", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult SetBatchRencanaSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_setBatchRencanaSS", EncodeData.HtmlEncodeObject(value));
                 return Ok(JsonConvert.SerializeObject(dt));
             }
             catch { return BadRequest(); }
