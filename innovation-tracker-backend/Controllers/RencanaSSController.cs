@@ -356,6 +356,19 @@ namespace innovation_tracker_backend.Controllers
 
         [Authorize]
         [HttpPost]
+        public IActionResult SetBatchRencanaSS([FromBody] dynamic data)
+        {
+            try
+            {
+                JObject value = JObject.Parse(data.ToString());
+                dt = lib.CallProcedure("ino_setBatchRencanaSS", EncodeData.HtmlEncodeObject(value));
+                return Ok(JsonConvert.SerializeObject(dt));
+            }
+            catch { return BadRequest(); }
+        }
+
+        [Authorize]
+        [HttpPost]
         public IActionResult UpdateStatusPenilaian([FromBody] dynamic data)
         {
             try
